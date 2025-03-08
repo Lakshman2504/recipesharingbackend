@@ -29,7 +29,6 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // Middleware
-const cors = require('cors');
 
 app.use(cors({
   origin: ['http://localhost:3000', 'https://recipesharingfront.onrender.com'],
